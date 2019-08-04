@@ -35,4 +35,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+*.package
 Assets/MagicLeap*
+Assets/Plugins/Lumin*
+.out
+*.mpk
