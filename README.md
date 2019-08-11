@@ -1,5 +1,6 @@
 # MagicLeapFX
-Visual effects on Magic Leap
+
+Visual effects on Magic Leap with Unity. Version used **2019.1.0b7** (Attention : Unity version matters!).
 
 ## Project setup
 
