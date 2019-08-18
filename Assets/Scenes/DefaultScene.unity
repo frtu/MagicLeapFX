@@ -337,8 +337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetObject: {fileID: 842763134}
-  _keyPoseToToggleON: 1
-  _keyPoseToToggleOFF: 6
+  _keyPoseToToggleON: 5
+  _keyPoseToToggleOFF: 1
   _trackLeftHand: 1
   _trackRightHand: 1
   _statusText: {fileID: 435881100}
@@ -794,7 +794,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b393944cc27fb46f2898efdf13f94cf8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b393944cc27fb46f2898efdf13f94cf8,
         type: 3}
