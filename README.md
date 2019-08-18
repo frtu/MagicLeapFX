@@ -1,5 +1,6 @@
 # MagicLeapFX
-Visual effects on Magic Leap
+
+Visual effects on Magic Leap with Unity. Version used **2019.1.0b7** (Attention : Unity version matters!).
 
 ## Project setup
 
@@ -22,6 +23,15 @@ Import Magic Leap package :
 * "API Update required: : click ***I made a backup. Go Ahead!***
 * In _Hierachy_ tag, delete *Main camera*
 * In /Assets/MagicLeap/Core/Prefabs, drag and drop the MagicLeap ***Main camera***
+
+### Setup Zenject (Dependency Injection framework)
+
+* Go to _Window > Asset Store_ or using Cmd+9
+* Search for ***zenject***
+* Download & Import
+* QUICK CHECK : You should be able to see _Window > Zenject Pool Monitor_
+
+Also check the amazing YouTube channel from *Dilmerv Dependency Injection*
 
 ## Build
 

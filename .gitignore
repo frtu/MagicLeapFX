@@ -38,5 +38,6 @@ sysinfo.txt
 *.package
 Assets/MagicLeap*
 Assets/Plugins/Lumin*
+Assets/Plugins/Zenject*
 .out
 *.mpk
