@@ -35,6 +35,31 @@ namespace MagicLeap
 
         #region Unity Methods
         /// <summary>
+        /// Initializes MLHands API.
+        /// </summary>
+        void Start()
+        {
+            MLResult result = MLHands.Start();
+            if (!result.IsOk)
+            {
+                Debug.LogErrorFormat("Error: HandTrackingVisualizer failed starting MLHands, disabling script. Reason: {0}", result);
+                enabled = false;
+                return;
+            }
+        }
+
+        /// <summary>
+        /// Stops the communication to the MLHands API.
+        /// </summary>
+        void OnDestroy()
+        {
+            if (MLHands.IsStarted)
+            {
+                MLHands.Stop();
+            }
+        }
+
+        /// <summary>
         /// Check editor set variables against null or for NoPose references.
         /// </summary>
         void Awake()
